@@ -62,6 +62,14 @@ abline(simpWEIGHT)
 summary.lm(simpWEIGHT)
 ```
 
+Best to Worst based on Adjusted-Rsquared.   
+HEADLEN 0.8434.   
+CHEST 0.7869.   
+NECK 0.7476.   
+WEIGHT 0.7423.   
+HEADWTH 0.5321.   
+AGE 0.5073.   
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
+Based on the Adjusted-Rsquared, HEADLEN is the best variable to preidct LENGTH. 
