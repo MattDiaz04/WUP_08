@@ -48,6 +48,13 @@ abline(simpHEADWTH)
 summary.lm(simpHEADWTH)
 ```
 
+```{r}
+simpCHEST <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(simpCHEST)
+summary.lm(simpCHEST)
+```
+
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
