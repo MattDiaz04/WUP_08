@@ -34,6 +34,13 @@ abline(simpHEADLEN)
 summary.lm(simpHEADLEN)
 ```
 
+```{r}
+simpAGE <- lm(LENGTH~AGE, data=bears)
+plot(LENGTH~AGE, data=bears)
+abline(simpAGE)
+summary.lm(simpAGE)
+```
+
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
